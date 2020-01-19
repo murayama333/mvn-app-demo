@@ -28,7 +28,7 @@ public class ItemTest {
 		Item item = new Item();
 		item.setPrice(1000);
 		int actual = item.getPrice();
-		int expected = 10000;
+		int expected = 1000;
 		assertEquals(expected, actual);
 	}
 
